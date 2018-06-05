@@ -15,6 +15,11 @@
 		4C8CB5F420C578620045E135 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5F220C578620045E135 /* TableController.swift */; };
 		4C8CB5F520C578620045E135 /* TableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8CB5F320C578620045E135 /* TableController.xib */; };
 		4C8CB5F720C5796D0045E135 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5F620C5796D0045E135 /* TabBarController.swift */; };
+		4C8CB5F920C57B560045E135 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5F820C57B560045E135 /* Photo.swift */; };
+		4C8CB5FB20C57BF50045E135 /* Base DePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5FA20C57BF50045E135 /* Base DePhotos.swift */; };
+		4C8CB5FE20C57D430045E135 /* MomentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5FC20C57D430045E135 /* MomentTableCell.swift */; };
+		4C8CB5FF20C57D430045E135 /* MomentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8CB5FD20C57D430045E135 /* MomentTableCell.xib */; };
+		4C8CB60120C671F00045E135 /* imageCoinArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB60020C671F00045E135 /* imageCoinArrondi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		4C8CB5F220C578620045E135 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		4C8CB5F320C578620045E135 /* TableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableController.xib; sourceTree = "<group>"; };
 		4C8CB5F620C5796D0045E135 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4C8CB5F820C57B560045E135 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		4C8CB5FA20C57BF50045E135 /* Base DePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Base DePhotos.swift"; sourceTree = "<group>"; };
+		4C8CB5FC20C57D430045E135 /* MomentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTableCell.swift; sourceTree = "<group>"; };
+		4C8CB5FD20C57D430045E135 /* MomentTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentTableCell.xib; sourceTree = "<group>"; };
+		4C8CB60020C671F00045E135 /* imageCoinArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCoinArrondi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,9 @@
 		4C8CB5EC20C577B70045E135 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4C8CB5FC20C57D430045E135 /* MomentTableCell.swift */,
+				4C8CB5FD20C57D430045E135 /* MomentTableCell.xib */,
+				4C8CB60020C671F00045E135 /* imageCoinArrondi.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +106,8 @@
 		4C8CB5ED20C577C20045E135 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4C8CB5F820C57B560045E135 /* Photo.swift */,
+				4C8CB5FA20C57BF50045E135 /* Base DePhotos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8CB5F520C578620045E135 /* TableController.xib in Resources */,
+				4C8CB5FF20C57D430045E135 /* MomentTableCell.xib in Resources */,
 				4C8CB5E420C576250045E135 /* LaunchScreen.storyboard in Resources */,
 				4C8CB5F120C578010045E135 /* CollectionController.xib in Resources */,
 				4C8CB5E120C576250045E135 /* Assets.xcassets in Resources */,
@@ -170,9 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8CB5F420C578620045E135 /* TableController.swift in Sources */,
+				4C8CB5FE20C57D430045E135 /* MomentTableCell.swift in Sources */,
 				4C8CB5F720C5796D0045E135 /* TabBarController.swift in Sources */,
 				4C8CB5DA20C576240045E135 /* AppDelegate.swift in Sources */,
+				4C8CB60120C671F00045E135 /* imageCoinArrondi.swift in Sources */,
+				4C8CB5FB20C57BF50045E135 /* Base DePhotos.swift in Sources */,
 				4C8CB5F020C578010045E135 /* CollectionController.swift in Sources */,
+				4C8CB5F920C57B560045E135 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
