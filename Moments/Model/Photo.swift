@@ -19,7 +19,7 @@ class Photo {
     }
     
     var nom: String {
-        return nom
+        return _nom
     }
     
     var desc: String {
