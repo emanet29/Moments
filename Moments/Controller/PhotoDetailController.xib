@@ -31,36 +31,38 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ILI-hd-R6u" customClass="imageCoinArrondi" customModule="Moments" customModuleProvider="target">
-                            <rect key="frame" x="20" y="30" width="359" height="128"/>
+                            <rect key="frame" x="20" y="75" width="359" height="128"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="359" id="VaV-fz-jQ4"/>
                                 <constraint firstAttribute="height" constant="128" id="ehR-TT-IC2"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lab-vb-Fth">
-                            <rect key="frame" x="20" y="178" width="359" height="50"/>
+                            <rect key="frame" x="20" y="223" width="359" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="QiW-Ny-rLr"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a81-AN-5kz">
-                            <rect key="frame" x="20" y="236" width="359" height="100"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a81-AN-5kz">
+                            <rect key="frame" x="20" y="281" width="359" height="100"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="oUd-y1-2nn"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7AD-Xx-aQG">
-                            <rect key="frame" x="20" y="376" width="359" height="50"/>
+                            <rect key="frame" x="20" y="421" width="359" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="Bzp-JC-rbs"/>
                             </constraints>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="Retour">
+                                <color key="titleColor" red="1" green="0.21091624740000001" blue="0.075737467350000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                             <connections>
                                 <action selector="retourAction:" destination="-1" eventType="touchUpInside" id="1xM-Qh-vea"/>
                             </connections>
@@ -79,7 +81,7 @@
                         <constraint firstAttribute="trailing" secondItem="a81-AN-5kz" secondAttribute="trailing" constant="20" id="jKg-Y1-slb"/>
                         <constraint firstItem="7AD-Xx-aQG" firstAttribute="top" secondItem="a81-AN-5kz" secondAttribute="bottom" constant="40" id="ox7-N1-2zX"/>
                         <constraint firstItem="lab-vb-Fth" firstAttribute="top" secondItem="ILI-hd-R6u" secondAttribute="bottom" constant="20" id="ruj-gG-y7y"/>
-                        <constraint firstItem="ILI-hd-R6u" firstAttribute="top" secondItem="ipz-GC-Puw" secondAttribute="top" constant="30" id="zqR-l3-UkR"/>
+                        <constraint firstItem="ILI-hd-R6u" firstAttribute="top" secondItem="ipz-GC-Puw" secondAttribute="top" constant="75" id="zqR-l3-UkR"/>
                     </constraints>
                 </scrollView>
             </subviews>

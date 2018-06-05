@@ -45,6 +45,13 @@ class CollectionController: UIViewController, UICollectionViewDelegate, UICollec
         return Ratio.obtenir.taille(collectionView.frame.width / 2 - 30,image: photos[indexPath.item].image)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let photo = photos[indexPath.item]
+        let controller = PhotoDetailController()
+        controller.photo = photo
+        self.present(controller, animated: true, completion: nil)
+    }
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 15
     }
