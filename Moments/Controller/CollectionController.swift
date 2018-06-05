@@ -42,17 +42,7 @@ class CollectionController: UIViewController, UICollectionViewDelegate, UICollec
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let image = photos[indexPath.item].image
-        let largeur = collectionView.frame.width / 2 - 30
-        let ratio = largeur / image.size.width
-        let width = image.size.width * ratio
-        let height = image.size.height * ratio
-        
-        
-        
-        
-        
-        return CGSize(width: width, height: height)
+        return Ratio.obtenir.taille(collectionView.frame.width / 2 - 30,image: photos[indexPath.item].image)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
